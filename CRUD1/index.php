@@ -142,7 +142,7 @@ text-decoration:none;
 
 <?php if(isset($err)){?>
 <div class="err"><?php echo $err;?></div>
-<?php}
+<?php };
 ?>
 
 
@@ -202,4 +202,5 @@ echo "</table>";
 
 }catch(PDOException $e){
     echo "Error fetching users: " . $e->getMessage();
-}?>
+};
+?>
